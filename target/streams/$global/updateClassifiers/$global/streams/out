@@ -1,0 +1,1059 @@
+[0m[[33mwarn[0m] [0mMultiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:[0m
+[0m[[33mwarn[0m] [0m * org.scala-lang:scala-reflect:(2.11.2, 2.11.7)[0m
+[0m[[33mwarn[0m] [0m * org.scala-lang.modules:scala-parser-combinators_2.11:(1.0.1, 1.0.4)[0m
+[0m[[33mwarn[0m] [0m * org.scala-lang.modules:scala-xml_2.11:(1.0.2, 1.0.4)[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ee51281[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.11;2.2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13e7f93b[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@266a2b09[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a3fc65c[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.storm-enroute#scalameter-core_2.11;0.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7174c5c1[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.storm-enroute#scalameter-core_2.11;0.6[0m
+[0m[[0mdebug[0m] [0m	found com.storm-enroute#scalameter-core_2.11;0.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-math3;3.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50d5cc8c[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.2[0m
+[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-math3;3.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@369b0c32[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.github.scala-blitz#scala-blitz_2.11;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cc93a3b[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.scala-blitz#scala-blitz_2.11;1.1[0m
+[0m[[0mdebug[0m] [0m	found com.github.scala-blitz#scala-blitz_2.11;1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-swing_2.11;1.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a917070[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-swing_2.11;1.0.1[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-swing_2.11;1.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving junit#junit;4.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78fa52ba[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m	found junit#junit;4.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d6f2f43[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.storm-enroute#scalameter_2.11;0.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e18eab4[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.storm-enroute#scalameter_2.11;0.6[0m
+[0m[[0mdebug[0m] [0m	found com.storm-enroute#scalameter_2.11;0.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.wookietreiber#scala-chart_2.11;0.4.2 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.github.wookietreiber#scala-chart_2.11;0.4.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39724076[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.wookietreiber#scala-chart_2.11;0.4.2[0m
+[0m[[0mdebug[0m] [0m	found com.github.wookietreiber#scala-chart_2.11;0.4.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[0.4.2] com.github.wookietreiber#scala-chart_2.11;0.4.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.wookietreiber#scala-chart_2.11;0.4.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.wookietreiber#scala-chart_2.11;0.4.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.wookietreiber#scala-chart_2.11;0.4.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jfreechart;1.0.17 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.jfree#jfreechart;1.0.17 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78d25d17[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jfree#jfreechart;1.0.17[0m
+[0m[[0mdebug[0m] [0m	found org.jfree#jfreechart;1.0.17 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jfreechart;1.0.17 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jfreechart;1.0.17 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jfreechart;1.0.17 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jcommon;1.0.21 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.jfree#jcommon;1.0.21 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@666ca722[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jfree#jcommon;1.0.21[0m
+[0m[[0mdebug[0m] [0m	found org.jfree#jcommon;1.0.21 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jcommon;1.0.21 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jcommon;1.0.21 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jcommon;1.0.21 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->xml-apis#xml-apis;1.3.04 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving xml-apis#xml-apis;1.3.04 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f36912f[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: xml-apis#xml-apis;1.3.04[0m
+[0m[[0mdebug[0m] [0m	found xml-apis#xml-apis;1.3.04 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->xml-apis#xml-apis;1.3.04 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->xml-apis#xml-apis;1.3.04 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->xml-apis#xml-apis;1.3.04 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-tools.testing#test-interface;0.5 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-tools.testing#test-interface;0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34fd23a[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-tools.testing#test-interface;0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-tools.testing#test-interface;0.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-tools.testing#test-interface;0.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-tools.testing#test-interface;0.5 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.wookietreiber#scala-chart_2.11;0.4.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.wookietreiber#scala-chart_2.11;0.4.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.wookietreiber#scala-chart_2.11;0.4.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.wookietreiber#scala-chart_2.11;0.4.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jfreechart;1.0.17 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jfreechart;1.0.17 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jfreechart;1.0.17 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jfreechart;1.0.17 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jcommon;1.0.21 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jcommon;1.0.21 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jcommon;1.0.21 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jcommon;1.0.21 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->xml-apis#xml-apis;1.3.04 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->xml-apis#xml-apis;1.3.04 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->xml-apis#xml-apis;1.3.04 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->xml-apis#xml-apis;1.3.04 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-tools.testing#test-interface;0.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-tools.testing#test-interface;0.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-tools.testing#test-interface;0.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-tools.testing#test-interface;0.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter-core_2.11;0.6 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.apache.commons#commons-math3;3.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.scala-blitz#scala-blitz_2.11;1.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-swing_2.11;1.0.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.storm-enroute#scalameter_2.11;0.6 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.wookietreiber#scala-chart_2.11;0.4.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.wookietreiber#scala-chart_2.11;0.4.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.wookietreiber#scala-chart_2.11;0.4.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->com.github.wookietreiber#scala-chart_2.11;0.4.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jfreechart;1.0.17 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jfreechart;1.0.17 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jfreechart;1.0.17 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jfreechart;1.0.17 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jcommon;1.0.21 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jcommon;1.0.21 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jcommon;1.0.21 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.jfree#jcommon;1.0.21 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->xml-apis#xml-apis;1.3.04 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->xml-apis#xml-apis;1.3.04 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->xml-apis#xml-apis;1.3.04 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->xml-apis#xml-apis;1.3.04 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-tools.testing#test-interface;0.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-tools.testing#test-interface;0.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-tools.testing#test-interface;0.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-tools.testing#test-interface;0.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.7 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-lang/scala-library/2.11.7/srcs/scala-library-sources.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-lang/scala-library/2.11.7/srcs/scala-library-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar(src) (2143ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scalatest/scalatest_2.11/2.2.4/srcs/scalatest_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scalatest/scalatest_2.11/2.2.4/jars/scalatest_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scalatest/scalatest_2.11/2.2.4/srcs/scalatest_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scalatest/scalatest_2.11/2.2.4/jars/scalatest_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(src) (2488ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar (7229ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-lang/scala-reflect/2.11.2/srcs/scala-reflect-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-lang/scala-reflect/2.11.2/srcs/scala-reflect-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar(src) (1800ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.2/srcs/scala-xml_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.2/jars/scala-xml_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-lang.modules/scala-xml_2.11/1.0.2/srcs/scala-xml_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-lang.modules/scala-xml_2.11/1.0.2/jars/scala-xml_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(src) (1417ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar (1816ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/com.storm-enroute/scalameter-core_2.11/0.6/srcs/scalameter-core_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.storm-enroute#scalameter-core_2.11;0.6!scalameter-core_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/com.storm-enroute/scalameter-core_2.11/0.6/srcs/scalameter-core_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.11/0.6/scalameter-core_2.11-0.6-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.storm-enroute#scalameter-core_2.11;0.6!scalameter-core_2.11.jar(src) (1352ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.2!commons-math3.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.apache.commons/commons-math3/3.2/srcs/commons-math3-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.apache.commons/commons-math3/3.2/srcs/commons-math3-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-math3;3.2!commons-math3.jar(src) (2842ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/jars/scala-parser-combinators_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/srcs/scala-parser-combinators_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/jars/scala-parser-combinators_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/srcs/scala-parser-combinators_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar (1660ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(src) (1400ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/com.github.scala-blitz/scala-blitz_2.11/1.1/srcs/scala-blitz_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.scala-blitz#scala-blitz_2.11;1.1!scala-blitz_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/com.github.scala-blitz/scala-blitz_2.11/1.1/srcs/scala-blitz_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/scala-blitz/scala-blitz_2.11/1.1/scala-blitz_2.11-1.1-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.scala-blitz#scala-blitz_2.11;1.1!scala-blitz_2.11.jar(src) (1593ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-lang.modules/scala-swing_2.11/1.0.1/srcs/scala-swing_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-lang.modules/scala-swing_2.11/1.0.1/jars/scala-swing_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-lang.modules/scala-swing_2.11/1.0.1/srcs/scala-swing_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-lang.modules/scala-swing_2.11/1.0.1/jars/scala-swing_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-swing_2.11;1.0.1!scala-swing_2.11.jar(src) (1695ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-swing_2.11;1.0.1!scala-swing_2.11.jar (2090ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.storm-enroute#scalameter_2.11;0.6!scalameter_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/com.storm-enroute/scalameter_2.11/0.6/srcs/scalameter_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/com.storm-enroute/scalameter_2.11/0.6/srcs/scalameter_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.11/0.6/scalameter_2.11-0.6-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.storm-enroute#scalameter_2.11;0.6!scalameter_2.11.jar(src) (1633ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.wookietreiber#scala-chart_2.11;0.4.2!scala-chart_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/com.github.wookietreiber/scala-chart_2.11/0.4.2/srcs/scala-chart_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/com.github.wookietreiber/scala-chart_2.11/0.4.2/srcs/scala-chart_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/wookietreiber/scala-chart_2.11/0.4.2/scala-chart_2.11-0.4.2-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.wookietreiber#scala-chart_2.11;0.4.2!scala-chart_2.11.jar(src) (1475ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.jfree/jfreechart/1.0.17/srcs/jfreechart-sources.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jfree#jfreechart;1.0.17!jfreechart.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.jfree/jfreechart/1.0.17/srcs/jfreechart-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.jfree#jfreechart;1.0.17!jfreechart.jar(src) (3088ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.jfree/jcommon/1.0.21/srcs/jcommon-sources.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jfree#jcommon;1.0.21!jcommon.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.jfree/jcommon/1.0.21/srcs/jcommon-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/jfree/jcommon/1.0.21/jcommon-1.0.21-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jfree/jcommon/1.0.21/jcommon-1.0.21-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.jfree#jcommon;1.0.21!jcommon.jar(src) (1948ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] xml-apis#xml-apis;1.3.04!xml-apis.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/xml-apis/xml-apis/1.3.04/srcs/xml-apis-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/xml-apis/xml-apis/1.3.04/srcs/xml-apis-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] xml-apis#xml-apis;1.3.04!xml-apis.jar(src) (1734ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-tools.testing/test-interface/0.5/srcs/test-interface-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-tools.testing/test-interface/0.5/srcs/test-interface-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar[0m
+[0m[[33mwarn[0m] [0m	[FAILED     ] org.scala-tools.testing#test-interface;0.5!test-interface.jar(src):  (0ms)[0m
+[0m[[33mwarn[0m] [0m==== local: tried[0m
+[0m[[33mwarn[0m] [0m  /home/animesh/.ivy2/local/org.scala-tools.testing/test-interface/0.5/srcs/test-interface-sources.jar[0m
+[0m[[33mwarn[0m] [0m==== local-preloaded-ivy: tried[0m
+[0m[[33mwarn[0m] [0m  /home/animesh/.sbt/preloaded/org.scala-tools.testing/test-interface/0.5/srcs/test-interface-sources.jar[0m
+[0m[[33mwarn[0m] [0m==== local-preloaded: tried[0m
+[0m[[33mwarn[0m] [0m  file:////home/animesh/.sbt/preloaded/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar[0m
+[0m[[33mwarn[0m] [0m==== public: tried[0m
+[0m[[33mwarn[0m] [0m  https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/srcs/scala-compiler-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-lang/scala-compiler/2.11.7/srcs/scala-compiler-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src) (2992ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-lang/scala-reflect/2.11.7/srcs/scala-reflect-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-lang/scala-reflect/2.11.7/srcs/scala-reflect-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src) (1749ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/srcs/scala-xml_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-lang.modules/scala-xml_2.11/1.0.4/srcs/scala-xml_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src) (1414ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/srcs/scala-parser-combinators_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/srcs/scala-parser-combinators_2.11-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src) (1391ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.ivy2/local/jline/jline/2.12.1/srcs/jline-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/animesh/.sbt/preloaded/jline/jline/2.12.1/srcs/jline-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:////home/animesh/.sbt/preloaded/jline/jline/2.12.1/jline-2.12.1-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar(src) (1441ms)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 410ms :: artifacts dl 48723ms[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[33mwarn[0m] [0m	::              FAILED DOWNLOADS            ::[0m
+[0m[[33mwarn[0m] [0m	:: ^ see resolution messages for details  ^ ::[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[33mwarn[0m] [0m	:: org.scala-tools.testing#test-interface;0.5!test-interface.jar(src)[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT compile produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT runtime produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT test produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT provided produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT optional produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT compile-internal produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT runtime-internal produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT test-internal produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT plugin produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT sources produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT docs produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT pom produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for parprog1-barneshut#parprog1-barneshut$sources_2.11;0.1-SNAPSHOT scala-tool produced in /home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/target/resolution-cache/reports/parprog1-barneshut-parprog1-barneshut$sources_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (410ms resolve - 48723ms download)[0m

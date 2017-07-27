@@ -1,0 +1,3 @@
+;reload; set org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo /tmp/sbt-structure.xml
+all {file:/home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/}root/products {file:/home/animesh/Programming/Scala/Coursera_courses/parallel_programming/Assignments/Assignment_4/barneshut/}root/test:products
+submit akanimax@gmail.com P1MwlZD6E8xJAOpR
